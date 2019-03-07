@@ -1,0 +1,45 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class Nov17Q2 {
+  
+  
+  public static void main(String[] args) { 
+    double h=0,velocity;
+    int time;
+    
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter the velocity");
+    velocity=scan.nextDouble();
+    for(time=0;time<4;time++)
+    {
+
+    System.out.print("Time: "+time);
+    h=h+velocity;
+    System.out.println("  Height: "+h);
+    velocity=velocity-32;
+    }
+   
+
+    for(time=5;time<8;time++)
+    {
+
+    System.out.print("Time: "+time);
+    h=h+velocity;
+    System.out.println("  Height: "+h);
+    velocity=velocity-32;
+    
+   
+    }
+    
+    if(h<0)
+    {
+      h=h*velocity*(0.05);
+      System.out.println("Bounce");
+    }
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

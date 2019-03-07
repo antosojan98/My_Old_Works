@@ -1,0 +1,40 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class Q5 {
+  
+  
+  public static void main(String[] args) { 
+    int marks;
+    int a,b,c,d,f,total;
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter your marks");
+    do{
+      if(marks>90 && marks<100)
+        a++; 
+      total++;
+      if(marks>80 && marks<90)
+        b++;
+      total++
+      if(marks>70 && marks<80)
+        c++;
+      total++
+      if(marks>60 && marks<70)
+        d++;
+      total++;
+      if(marks>0 && marks<60)
+        f++;
+      total++;
+    }while(marks!=-1);
+    System.out.println("Total Number of grades "+total);
+    System.out.println("Number of A's= "+a);
+    System.out.println("Number of B's= "+b);
+    System.out.println("Number of C's= "+c);
+    System.out.println("Number of D's= "+d);
+    System.out.println("Number of F's= "+f);
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

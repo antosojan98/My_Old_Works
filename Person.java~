@@ -1,0 +1,36 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class Person {
+  String direction;
+  int position;
+  
+  public Person() { 
+    /* YOUR CONSTRUCTOR CODE HERE*/
+  }
+  public Person(int a){
+  position=a;
+  direction="west";
+  }
+  public void turn(){
+    if(direction.equals("west")){
+    direction="east";}
+    else{
+    direction="west";}
+     }
+  public void move(){
+  position++;
+  }
+  public static void main(String[] args) { 
+    Person p=new Person(10);
+    p.turn();
+    p.move();
+    p.turn();
+    System.out.println("Direction is "+p.direction);
+    System.out.println("Position is "+p.position);
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

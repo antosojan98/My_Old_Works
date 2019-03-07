@@ -1,0 +1,25 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class Q2 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner scan=new Scanner(System.in);
+    String sentence;
+    
+    System.out.println("Enter your sentence");
+    sentence=sacn.nextLine();
+    
+    int a=str.length();
+    int b=str.substring(x-2,x-1);
+    
+    if((a%2==0) && b.equals(?))
+      System.out.println("Yes we got it");
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

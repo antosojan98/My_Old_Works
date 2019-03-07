@@ -1,0 +1,40 @@
+import java.util.*;
+public class Qn8 {
+  
+  
+  public static void main(String[] args) { 
+   
+    int n;
+    Scanner s1=new Scanner(System.in);
+     System.out.println("Enter array limit");
+     n=s1.nextInt(); 
+     int b1[] =new int[n];
+     int b2[] =new int[n];
+     int b3[] =new int[n];
+     
+      
+     for(int i=0;i<n;i++)
+    {
+     System.out.println("Enter values for order 1");
+     b1[i]=s1.nextInt(); 
+     }
+      for(int j=0;j<n;j++)
+    {
+     System.out.println("Enter values for order 2");
+     b2[j]=s1.nextInt(); 
+     }
+    System.out.print("Final order: ");
+     for(int k=0;k<n;k++)
+     {
+      b3[k]=b1[k]+b2[k];
+     
+      System.out.print(b3[k]+"\t");
+     }
+     
+      
+     
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

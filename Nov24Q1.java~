@@ -1,0 +1,33 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class Nov24Q1 {
+  
+  
+  public static void main(String[] args) { 
+    
+    double foam;
+    int count=0;
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter the pound of foam");
+    foam=scan.nextDouble();
+    
+    do{
+      foam=foam-(0.10*foam);
+      count++;
+    
+    }while(foam<2);
+    System.out.println("It is not serviceable");
+    
+    int week=count%7;
+    int days=count%7;
+    
+    System.out.println(week+" weeks "+days+" Days");
+    
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

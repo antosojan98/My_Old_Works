@@ -1,0 +1,40 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class NumberAboveAverage {
+  
+
+  
+  public static void main(String[] args) { 
+    Scanner scan=new Scanner(System.in);
+    double temp[]=new double[10];
+    int days=0;
+  
+  for(int i=0;i<10;i++)
+  {
+    System.out.println("Enter your temperature");
+    temp[i]=scan.nextDouble();
+    
+  }
+    double total=0;
+    total=total+temp[i];
+    
+    double newavg=total/10;
+    
+    
+   do {
+      if(newavg>total){
+      days++;}
+    }while(total!=0);
+    
+    System.out.println("No of days greater than average "+days);
+    
+    
+  
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}
